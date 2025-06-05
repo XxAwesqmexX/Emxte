@@ -8,7 +8,7 @@
 - [Installation](#-installation)
 - [Using The API In a Plugin](#️-using-the-api)
 - [Using The API In Skript](#skript)
-- [Emotes In Game](#emotess-in-game)
+- [Emotes In Game](#emotes-in-game)
 
 ---
 
