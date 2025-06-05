@@ -3,6 +3,15 @@
 
 ---
 
+## 📚 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Using The API In a Plugin](#️-using-the-api)
+- [Using The API In Skript Skript](#skript)
+- [Emotes In Game](#emotes-in-game)
+
+---
+
 ## 📦 Features
 
 - Easy-to-use emote API
