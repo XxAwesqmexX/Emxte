@@ -90,7 +90,7 @@ class Example : Listener {
 }
 ```
 - The Function `getAllLoadedEmotes()` Will Simply Do As It Says and Return a List of All The Loaded Emotes.
-
+---
 ### Skript
 
 1. Including The API (You Must Have The Plugin Installed on Your Server and You Must Have The Skript-Reflect Addon)
