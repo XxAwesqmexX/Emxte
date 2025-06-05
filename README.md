@@ -10,6 +10,7 @@
 - Works with Minecraft 1.21+
 - No config required (unless you want to add your emotes, this process is explained within the config.yml located in the Plugin's folder)
 - Comes With Default Emotes (Scroll Down To View)
+- Takes ANY 8x8 Image You Want and Turns it Into an In-Game Display 'Emote' (No Resource Packs Required)
 
 ---
 
@@ -117,3 +118,7 @@ function getLoadedEmotesAsList() :: strings:
     replace all "[", "]", " " with "" in {_emotes}
     return split {_emotes} by ","
 ```
+
+---
+
+### Emotes In Game (The Plugin Comes With These)
