@@ -1,0 +1,11 @@
+name: Emxtes
+version: '1.0'
+main: dev.xxawesqmexx.emxtes.Emxtes
+api-version: '1.21'
+
+author: XxAwesqmexX
+website: https://github.com/XxAwesqmexX/Emxte
+
+commands:
+  emxte:
+    permission: op

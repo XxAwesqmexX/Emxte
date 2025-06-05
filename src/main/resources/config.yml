@@ -1,0 +1,23 @@
+# Do not change this value or your config may get reset or the plugin may break.
+# To properly reset the config delete it and it will regenerate.
+version: 1.0
+
+# To Access An Emote You Can Use The Default Folder 'emxte_images' Or You May Create Your Own, Change It Accordingly, Put Your '8x8' (Required Size) PNG (Required Image Format) Into It.
+# View Examples Before For Extra Guidance.
+
+# Put Your Emxtes Here:
+emotes:
+
+  # examples
+  angry:
+    path: "emxtes_images/angry.png"
+  attack:
+    path: "emxtes_images/attack.png"
+  gold_coin:
+    path: "emxtes_images/gold_coin.png"
+  happy:
+    path: "emxtes_images/happy.png"
+  sad:
+    path: "emxtes_images/sad.png"
+  skull:
+    path: "emxtes_images/skull.png"
