@@ -56,7 +56,7 @@ If it is not working properly and you are using the maven shade plugin include t
               <configuration>
                   <artifactSet>
                       <excludes>
-                          <exclude>dev.xxawesqmexx.emxtes</exclude>
+                          <exclude>com.github.XxAwesqmexX:Emxte</exclude>
                       </excludes>
                   </artifactSet>
               </configuration>
