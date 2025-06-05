@@ -122,4 +122,4 @@ function getLoadedEmotesAsList() :: strings:
 ---
 
 ### Emotes In Game (The Plugin Comes With These)
-![Angry](GitHubImages/angry.png)
+![Angry](GitHubImages/angry.png)   ![Attack](GitHubImages/attack.png)
