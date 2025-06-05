@@ -18,6 +18,9 @@ class Emxte {
     companion object {
         private val emxteCache: MutableMap<String, List<Triple<Int,Int,Int>>> = mutableMapOf()
 
+        @JvmStatic
+        fun getAllLoadedEmotes(): MutableSet<String> = emxteCache.keys
+
         fun loadAllEmotes() {
             emxteCache.clear()
             val configFile = File("plugins${File.separator}emxtes${File.separator}config.yml")
