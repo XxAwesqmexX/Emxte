@@ -87,20 +87,20 @@ class Emxte {
 
         @JvmStatic
         fun drawEmote(loc: Location, colors: List<Triple<Int, Int, Int>>) {
-            val doX = isDoX(loc.yaw)
-
-            val coord = (!doX).let { if (it) loc.x else loc.z}
-            var smallestCoord = coord-1
-            val largestCoord = coord+1
-
-            val y = loc.y
-            var largestY = y+2
-
-            val drawLoc = (!doX).let { if (it) Location(loc.world, smallestCoord, largestY, loc.z, loc.yaw, 0.0f) else Location(loc.world, loc.x, largestY, smallestCoord, loc.yaw, 0.0f)}
-
             repeat(10) { repeat ->
                 object : BukkitRunnable() {
                     override fun run() {
+                        val doX = isDoX(loc.yaw)
+
+                        val coord = (!doX).let { if (it) loc.x else loc.z}
+                        var smallestCoord = coord-1
+                        val largestCoord = coord+1
+
+                        val y = loc.y
+                        var largestY = y+2
+
+                        val drawLoc = (!doX).let { if (it) Location(loc.world, smallestCoord, largestY, loc.z, loc.yaw, 0.0f) else Location(loc.world, loc.x, largestY, smallestCoord, loc.yaw, 0.0f)}
+
                         var i = 0
                         while (largestY > y) {
                             while (smallestCoord < largestCoord) {
