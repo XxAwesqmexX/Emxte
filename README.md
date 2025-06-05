@@ -14,7 +14,7 @@
 
 ## 🔧 Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/xxawesqmexx/Emxtes/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/XxAwesqmexX/Emxte/releases)
 2. Drop the `.jar` into your `plugins/` folder
 3. Restart your server
 4. Done!
