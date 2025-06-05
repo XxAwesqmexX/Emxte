@@ -40,8 +40,8 @@
       <version>v1.0.0</version>
   </dependency>
 ```
-Do NOT shade the plugin unless you understand how to use it properly.
-If it is not working properly and you are using the maven shade plugin include this in your pom.xml
+- Do NOT shade the plugin unless you understand how to use it properly.
+- If it is not working properly and you are using the maven shade plugin include this in your pom.xml
 ```xml
   <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -64,8 +64,6 @@ If it is not working properly and you are using the maven shade plugin include t
       </executions>
   </plugin>
 ```
-
 2. Example Usage:
-
 
 ### Skript
